@@ -66,9 +66,6 @@ batch_size = 8
 
 # BERT base
 
-# config_path = '/home/mingming.xu/pretrain/NLP/nezha_base_wwm/bert_config.json'
-# checkpoint_path = '/home/mingming.xu/pretrain/NLP/nezha_base_wwm/model.ckpt'
-# dict_path = '/home/mingming.xu/pretrain/NLP/nezha_base_wwm/vocab.txt'
 
 config_path = './chinese_roberta_wwm_ext_L-12_H-768_A-12/bert_config.json'
 checkpoint_path = './chinese_roberta_wwm_ext_L-12_H-768_A-12/bert_model.ckpt'

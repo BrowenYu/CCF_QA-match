@@ -38,7 +38,7 @@ Pattern-Exploiting Training(PET)，即增加一个pattern，将任务转换为ML
 
 单模型提交f1: 0.76+
 
-# 思路三
+## 思路三：
 由于bert 不同的transformer 层提取到的语义粒度不同，而不同粒度的信息对分类来说起到的作用也不同，所以可以concat所以粒度的语义信息，拼接后作为特征进行分类。
 
 对应于本次样本，示意图如下：

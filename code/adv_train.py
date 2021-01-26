@@ -15,9 +15,9 @@ epochs = 10
 lr = 1e-5
 
 # bert配置
-config_path = '/home/mingming.xu/pretrain/NLP/nezha_base_wwm/bert_config.json'
-checkpoint_path = '/home/mingming.xu/pretrain/NLP/nezha_base_wwm/model.ckpt'
-dict_path = '/home/mingming.xu/pretrain/NLP/nezha_base_wwm//vocab.txt'
+config_path = './chinese_roberta_wwm_ext_L-12_H-768_A-12/bert_config.json'
+checkpoint_path = './chinese_roberta_wwm_ext_L-12_H-768_A-12/bert_model.ckpt'
+dict_path = './chinese_roberta_wwm_ext_L-12_H-768_A-12/vocab.txt'
 # 建立分词器
 tokenizer = Tokenizer(dict_path, do_lower_case=True)
 
